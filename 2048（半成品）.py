@@ -35,13 +35,17 @@ def 显示局面():
 def 控制朝向:
     方向=input('你要向哪移动？')
     if 方向 == 'N' :
-        pass
+        if x1y1 and x1y2 and x1y3 and x1y4 != 0 :
+            pass
     elif 方向 == 'E' :
-        pass
+        if x2y1 and x2y2 and x2y3 and x2y4 != 0 :
+            pass
     elif 方向 == 'S' :
-        pass
+        if x3y1 and x3y2 and x3y3 and x3y4 != 0 :
+            pass
     elif 方向 == 'W':
-        pass
+        if x4y1 and x4y2 and x4y3 and x4y4 != 0 :
+            pass
 
 print('2048玩法：回复 N S E W 控制 上 下 左 右')
 print('两个相同数字碰撞可得到该两个数字的和')
