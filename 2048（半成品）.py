@@ -24,13 +24,13 @@ x4y4 = 0
 
 #函数
 def 显示局面():
-    print(x1y1+'|'+x1y2+'|'+x1y3+'|'+x1y4)
+    print(str(x1y1)+'|'+str(x1y2)+'|'+str(x1y3)+'|'+str(x1y4))
     print(' ')
-    print(x2y1+'|'+x2y2+'|'+x2y3+'|'+x2y4)
+    print(str(x2y1)+'|'+str(x2y2)+'|'+str(x2y3)+'|'+str(x2y4))
     print(' ')
-    print(x3y1+'|'+x3y2+'|'+x3y3+'|'+x3y4)
+    print(str(x3y1)+'|'+str(x3y2)+'|'+str(x3y3)+'|'+str(x3y4))
     print(' ')
-    print(x4y1+'|'+x4y2+'|'+x4y3+'|'+x4y4)
+    print(str(x4y1)+'|'+str(x4y2)+'|'+str(x4y3)+'|'+str(x4y4))
     
 def 控制朝向:
     方向=input('你要向哪移动？')
@@ -53,4 +53,4 @@ print('当没有地方可以动时游戏结束；当得到2048时胜利。')
 while True:
     显示局面()
     控制朝向()
-#不想写了，摆烂了
+#后面的内容在自己的电脑上写，写完后上传
